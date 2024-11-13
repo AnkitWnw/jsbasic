@@ -45,7 +45,7 @@ const myFunction = function() {
     console.log("Hello Heros");
 }
 
-console.log(typeof myObj)
+console.log(typeof anotherId)
     
 
 
