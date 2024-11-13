@@ -28,8 +28,6 @@ const anotherId = Symbol('123')
 
 // Types Of Refrence (Non Primitive)
 
-// 3 types
-
 // 1. Array
 // 2. Objects
 // 3. Functions
@@ -45,9 +43,30 @@ const myFunction = function() {
     console.log("Hello Heros");
 }
 
-console.log(typeof anotherId)
+//console.log(typeof anotherId)
+
+/*
+Stack (Primitive)
+
+Heap (Non-Primitive)
+*/ 
     
+let myName = "Ankit"
 
+let anotherName = myName
 
+anotherName = "Amit"
+
+// console.log(myName)
+// console.log(anotherName)
+
+let userOne = {
+    email: "ankit@gmail.com",
+    upi: "ankit@ybl"
+}
+
+let userTwo = userOne
+
+console.log(userTwo)
 
 
