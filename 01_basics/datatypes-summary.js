@@ -67,6 +67,10 @@ let userOne = {
 
 let userTwo = userOne
 
-console.log(userTwo)
+userTwo.email = "amit@google.com"
+userTwo.upi = "amit@ybl"
+
+console.log(userOne.upi)
+console.log(userTwo.email)
 
 
